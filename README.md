@@ -21,36 +21,36 @@ TecchoHotel is a responsive hotel booking web application developed using modern
 - Vercel (deployment)
 
 ## Project Structure
+
+```text
 tecchohotel/
-│
 ├── public/
-│
 ├── src/
-│ │
-│ ├── components/
-│ │ ├── Hero.jsx
-│ │ ├── Navbar.jsx
-│ │ ├── ProtectedRoute.jsx
-│ │ ├── RoomCard.jsx
-│ │ └── SearchBar.jsx
-│ │
-│ ├── pages/
-│ │ ├── Home.jsx
-│ │ ├── Login.jsx
-│ │ ├── Register.jsx
-│ │ ├── RoomDetails.jsx
-│ │ ├── Cart.jsx
-│ │ ├── Checkout.jsx
-│ │ ├── MyBookings.jsx
-│ │ └── BookingConfirmation.jsx
-│ │
-│ ├── App.jsx
-│ └── main.jsx
+│   ├── components/
+│   │   ├── Hero.jsx
+│   │   ├── Navbar.jsx
+│   │   ├── ProtectedRoute.jsx
+│   │   ├── RoomCard.jsx
+│   │   └── SearchBar.jsx
+│   │
+│   ├── pages/
+│   │   ├── Home.jsx
+│   │   ├── Login.jsx
+│   │   ├── Register.jsx
+│   │   ├── RoomDetails.jsx
+│   │   ├── Cart.jsx
+│   │   ├── Checkout.jsx
+│   │   ├── MyBookings.jsx
+│   │   └── BookingConfirmation.jsx
+│   │
+│   ├── App.jsx
+│   └── main.jsx
 │
 ├── index.html
 ├── package.json
 ├── package-lock.json
 └── README.md
+```
 
 ## Authentication and Booking Logic
 - Users must register before logging in
